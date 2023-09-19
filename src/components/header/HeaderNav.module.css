@@ -1,0 +1,30 @@
+.contrainer{
+    box-shadow: 7px 0px 10px 0 rgba(0,0,0,0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btnAdmin{
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-right: 50px;
+    font-size: 14px;
+}
+.btnAdmin:hover{
+    background-color: #4a69e2;
+    color: #fff;
+    border: none;
+}
+.notifications{
+    margin-top: 5px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+}
+.search{
+    margin-top: 5px;
+    border: none;
+    background-color: transparent;
+}
+

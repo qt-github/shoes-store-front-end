@@ -1,0 +1,3 @@
+@import '../components/sidebarMenu/SidebarMenu.module.css';
+@import'../components/header/HeaderNav.module.css';
+@import'../components/footer/Footer.module.css';

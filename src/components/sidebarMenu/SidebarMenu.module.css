@@ -1,0 +1,59 @@
+.logo{
+    margin-bottom: 25px;
+    padding: 25px;
+    margin-left: 16px;
+}
+.name-item{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.link-item{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.link-item:hover{
+    background-color: #4a69e2;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px 0px rgba(0,0,0,0.75);
+}
+.categories{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+.category-item{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.category-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.category-name{
+}
+.shoes-number{
+    position: absolute;
+    right: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background-color: #e7e7e3;
+}
+.shoes-number:hover{
+    background-color: #4a69e2;
+    color: white;
+}
