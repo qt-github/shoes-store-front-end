@@ -1,3 +1,5 @@
 @import '../components/sidebarMenu/SidebarMenu.module.css';
 @import'../components/header/HeaderNav.module.css';
 @import'../components/footer/Footer.module.css';
+@import'../app/dashboard/styles/dashboard.module.css';
+@import "../common/styles/_index.module.css";

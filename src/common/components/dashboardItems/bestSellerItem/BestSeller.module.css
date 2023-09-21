@@ -1,0 +1,44 @@
+@import "productsInfo/BestSellerProductsInfo.module.css";
+.best-seller-item-container{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    width: 353px;
+    height: 470px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    justify-content: space-between;
+}
+.best-seller-item-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.title-best-seller{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+.menuBtn-best-seller-item{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.menuBtn-best-seller-item:hover{
+    scale: 1.1;
+    transition-delay: 0.1s;
+}
+.best-seller-item-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid lightgray;
+    padding-top: 5px;
+}
+.best-seller-item-footer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}

@@ -1,0 +1,23 @@
+table{
+    width: 100%;
+
+}
+thead{
+    border-bottom: 1px solid var(--gray);
+}
+tbody > tr > td{
+    vertical-align: center;
+
+}
+.customer-table-recent-orders{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.customer-avatar-table-recent-orders{
+    border-radius: 50%;
+}
+.status-table-recent-orders{
+
+}

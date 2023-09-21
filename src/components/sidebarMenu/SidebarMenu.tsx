@@ -17,17 +17,16 @@ function SidebarMenu() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container >
-                {/*<Navbar.Toggle aria-controls="basic-navbar-nav" />*/}
                 <Navbar.Collapse className={"d-flex flex-column"} id="basic-navbar-nav">
                     <Navbar.Brand className="logo">
                         <Link href={"/"}>
-                            <Image src="/images/Logo.png"
+                            <Image  className={"logo-image"} src="/images/Logo.png"
                                    alt={"Logo"}
                                    width={130}
                                    height={35}/>
                         </Link>
                     </Navbar.Brand>
-                    <Nav className={"me-auto d-flex flex-column"}>
+                    <Nav className={" w-100 d-flex flex-column "}>
                             <Link className={"link-item"} href={"/dashboard"}>
                                     <DashboardOutlinedIcon/>
                                    <span className="name-item">DASHBOARD</span>
@@ -59,7 +58,7 @@ function SidebarMenu() {
                                 </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item className="category-item d-flex justify-content-between align-items-start" href="#action/3.1">
-                                <Link className={"category-link"} href={"/categories/runners"}>
+                                <Link className={"category-link"} href={"/categories/golf"}>
                                     <div className="ms-2 me-auto">
                                         <div className="category-name">Golf</div>
                                     </div>
@@ -67,25 +66,25 @@ function SidebarMenu() {
                                 </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item className="category-item d-flex justify-content-between align-items-start" href="#action/3.1">
-                                <Link className={"category-link"} href={"/categories/runners"}>
+                                <Link className={"category-link"} href={"/categories/hiking"}>
                                     <div className="ms-2 me-auto">
-                                        <div className="category-name">Runners</div>
+                                        <div className="category-name">Hiking</div>
                                     </div>
                                     <button className={"shoes-number"} type={"button"}>21</button>
                                 </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item className="category-item d-flex justify-content-between align-items-start" href="#action/3.1">
-                                <Link className={"category-link"} href={"/categories/runners"}>
+                                <Link className={"category-link"} href={"/categories/football"}>
                                     <div className="ms-2 me-auto">
-                                        <div className="category-name">Runners</div>
+                                        <div className="category-name">Football</div>
                                     </div>
                                     <button className={"shoes-number"} type={"button"}>21</button>
                                 </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item className="category-item d-flex justify-content-between align-items-start" href="#action/3.1">
-                                <Link className={"category-link"} href={"/categories/runners"}>
+                                <Link className={"category-link"} href={"/categories/baseball"}>
                                     <div className="ms-2 me-auto">
-                                        <div className="category-name">Runners</div>
+                                        <div className="category-name">Baseball</div>
                                     </div>
                                     <button className={"shoes-number"} type={"button"}>21</button>
                                 </Link>

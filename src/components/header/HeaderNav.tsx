@@ -9,18 +9,10 @@ import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 
 function HeaderNav() {
     return (
-        <Navbar className="contrainer bg-body-tertiary justify-content-end">
-            <Form >
-                <Row>
-                    <Col xs="auto">
-                        <button type={"button"} className={"search"}><SearchIcon/></button>
-                        <button type={"button"} className={"notifications"}><NotificationsIcon/></button>
-                    </Col>
-                    <Col xs="auto">
-                        <button className={"btnAdmin"} type="button">ADMIN<ExpandMoreOutlinedIcon/></button>
-                    </Col>
-                </Row>
-            </Form>
+        <Navbar className="contrainer-header bg-body-tertiary justify-content-end">
+            <button type={"button"} className={"search"}><SearchIcon/></button>
+            <button type={"button"} className={"notifications"}><NotificationsIcon/></button>
+            <button className={"btnAdmin"} type="button">ADMIN<ExpandMoreOutlinedIcon/></button>
         </Navbar>
     );
 }

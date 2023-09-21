@@ -1,0 +1,12 @@
+@import "../components/header/HDashboard.module.css";
+@import "../components/component-1/Component-1.module.css";
+@import "../components/component-2/Component-2.module.css";
+@import "../components/component-3/Component-3.module.css";
+
+.dashboard-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

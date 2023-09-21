@@ -1,0 +1,27 @@
+.sale-graph-item-container{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 470px;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.sale-graph-item-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-sale-graph-item{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+.sale-graph-item-header-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sale-graph-item-body{
+}

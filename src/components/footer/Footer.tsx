@@ -1,24 +1,23 @@
 import React from 'react';
-import './Footer.module.css'
 import Link from "next/link";
 
 const Footer = () => {
     return (
         <div className={"footer d-flex justify-content-between"}>
-            <span >© 2023 - kicks Dashboard</span>
+            <span >© 2023 - Kicks Dashboard</span>
             <span/>
-            <ul className="d-flex flex-wrap">
+            <ul className="d-flex mt-2">
                 <li className="lst list-group-item">
-                    <Link href={"#"}>About</Link>
+                    <Link className={"link-footer"} href={"/about"}>About</Link>
                 </li>
                 <li className="lst list-group-item ms-3">
-                    <Link href={"#"}>Careers</Link>
+                    <Link className={"link-footer"} href={"/careers"}>Careers</Link>
                 </li>
                 <li className="lst list-group-item ms-3">
-                    <Link href={"#"}>Policy</Link>
+                    <Link className={"link-footer"} href={"/policy"}>Policy</Link>
                 </li>
                 <li className="lst list-group-item ms-3" >
-                    <Link href={"#"}>Contact</Link>
+                    <Link className={"link-footer"} href={"/contact"}>Contact</Link>
                 </li>
             </ul>
         </div>

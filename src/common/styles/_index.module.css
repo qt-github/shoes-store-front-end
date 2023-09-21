@@ -1,0 +1,8 @@
+@import "../../common/components/dashboardItems/statisticItem/StatisticItem.module.css";
+@import "../../common/components/button/icon/ButtonIcon.module.css";
+@import "../../common/components/button/plus/ButtonPlus.module.css";
+@import "../../common/components/button/normal/ButtonNormal.module.css";
+@import "../../common/components/dashboardItems/saleGraphItem/SaleGraph.module.css";
+@import "../../common/components/chart/SaleChart.module.css";
+@import"../../common/components/dashboardItems/bestSellerItem/BestSeller.module.css";
+@import"src/common/components/dashboardItems/tableRecentOrders/TableRecentOrders.module.css";

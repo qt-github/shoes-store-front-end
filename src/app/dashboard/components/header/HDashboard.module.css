@@ -1,0 +1,29 @@
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 54px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 149px;
+    height: 54px;
+}
+
+.date{
+    display: flex;
+    justify-content: flex-end;
+    /*align-items: center;*/
+    padding: 0px;
+    gap: 10px;
+
+    /*width: 400px;*/
+    height: 24px;
+}
