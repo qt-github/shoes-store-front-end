@@ -1,0 +1,96 @@
+.all-products-items-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    width: 357px;
+    height: 380px;
+    padding: 16px;
+    gap: 20px;
+}
+.all-products-items-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+.right-all-products-item-top{
+    display: flex;
+    flex-direction: column;
+
+}
+.price-all-products-items-top{
+    font-weight: bold;
+    font-size: 15px;
+}
+.product-name-nemu-all-products-items-top{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+.product-name-all-products-items-top{
+    font-size: 20px;
+
+}
+.btn-menu-all-products-items-top{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 15px;
+    width: 3px;
+}
+.btn-menu-all-products-items-top:hover{
+    scale: 1.1;
+    transition-delay: 0.1s;
+}
+.type-all-products-items-top{
+    font-size: 17px;
+    color: rgb(128, 128, 128);
+}
+.all-products-items-middle{
+    display: flex;
+    flex-direction: column;
+}
+.summary-all-products-items-middle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.summary-content-all-products-items-middle{
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+}
+.all-products-items-bottom{
+    display: flex;
+    flex-direction: column;
+    border:1px solid lightgray;
+    border-radius: 8px;
+    padding: 10px;
+}
+.sale-all-products-items-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow-sale-number-all-products-items-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.remaining-all-products-items-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.remaining-process-bar-number-all-products-items-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}

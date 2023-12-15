@@ -1,0 +1,13 @@
+@import "src/app/allProducts/components/header/AllProductsHeader.module.css";
+@import"src/app/allProducts/components/body/AllProductsBody.module.css";
+@import"src/app/allProducts/components/body/component-1/AllProductsBodyComponent-1.module.css";
+@import"src/app/allProducts/components/body/component-2/AllProductsBodyComponent-2.module.css";
+@import"src/app/allProducts/components/body/component-3/AllProductsBodyComponent-3.module.css";
+@import"src/app/allProducts/components/body/component-4/AllProductsBodyComponent-4.module.css";
+
+.all-products-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+margin-bottom: 40px;
+}

@@ -1,20 +1,21 @@
 import React from 'react';
 import Image from "next/image";
-import delivered from "@/common/components/dashboardItems/assets/images/delivered.png";
 
-interface TableRecentOrdersProps {
-  arr:any[];
+interface TableRecentPurchasesProps {
+    arr:any[];
 }
-const TableRecentOrders = ({arr}:TableRecentOrdersProps) => {
+
+const TableRecentPurchases = ({arr}:TableRecentPurchasesProps) => {
     return (
-        <div className={"table-recent-orders-container"}>
-            <table className={"table-recent-orders-content "}>
+        <div className={"table-recent-purchases-container"}>
+            <table className={"table-recent-purchases-content "}>
                 <thead>
                 <tr>
                     <th></th>
                     <th>Products</th>
                     <th>Order ID</th>
                     <th>Date</th>
+                    <th>Payment Method</th>
                     <th>Customer Name</th>
                     <th>Status</th>
                     <th>Amount</th>
@@ -31,26 +32,27 @@ const TableRecentOrders = ({arr}:TableRecentOrdersProps) => {
                                 <td>{item.products}</td>
                                 <td>{item.orderId}</td>
                                 <td>{item.date}</td>
-                                <td className={"customer-table-recent-orders"}>
+                                <td>{item.paymentMethod}</td>
+                                <td className={"customer-table-recent-purchases"}>
                                     <div >
-                                        <img className={"customer-avatar-table-recent-orders"}
+                                        <img className={"customer-avatar-table-recent-purchases"}
                                              src={item.customerAvatar}
-                                               width={24}
-                                               height={24} alt={'avatar'}
+                                             width={24}
+                                             height={24} alt={'avatar'}
                                         />
                                     </div>
-                                    <div className={"customer-name-table-recent-orders"}>
+                                    <div className={"customer-name-table-recent-purchases"}>
                                         {item.customerName}
                                     </div>
                                 </td>
-                                <td className={"status-table-recent-orders"}>
-                                    <div className={"status-icon-table-recent-orders"}>
+                                <td className={"status-table-recent-purchases"}>
+                                    <div className={"status-icon-table-recent-purchases"}>
                                         <Image src={item.statusIcon}
-                                                width={9}
-                                                height={9}
+                                               width={9}
+                                               height={9}
                                                alt={'statusIcon'}
                                         />
-                                        <span className={"status-table-recent-orders"}>
+                                        <span className={"status-table-recent-purchases"}>
                                             {item.status}
                                         </span>
                                     </div>
@@ -68,4 +70,4 @@ const TableRecentOrders = ({arr}:TableRecentOrdersProps) => {
     );
 };
 
-export default TableRecentOrders;
+export default TableRecentPurchases;

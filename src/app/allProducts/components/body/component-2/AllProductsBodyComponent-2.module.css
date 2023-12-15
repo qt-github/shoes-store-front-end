@@ -1,0 +1,6 @@
+.all-product-body-component-2-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}

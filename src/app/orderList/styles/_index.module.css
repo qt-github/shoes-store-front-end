@@ -1,0 +1,14 @@
+@import "src/app/orderList/components/header/OrderListHeader.module.css";
+@import "src/app/orderList/components/changeStatus/ChangStatus.module.css";
+@import "src/app/orderList/components/body/OrderListBody.module.css";
+.order-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.order-list-change-status{
+    display: flex;
+    justify-content: space-between;
+}

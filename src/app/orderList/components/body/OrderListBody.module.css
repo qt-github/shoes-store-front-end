@@ -1,4 +1,4 @@
-.dashboard-component-3-container{
+.order-list-body-container{
     background-color: var(--white);
     padding: 20px;
     border-radius: 5px;
@@ -9,23 +9,32 @@
     justify-content: center;
     gap: 10px;
 }
-.dashboard-component-3-header{
+.order-list-recent-purchases-header{
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
     align-items: center;
 }
-.title-recent-orders-item-header{
+.title-order-list-recent-purchases-header{
     font-size: 20px;
     font-weight: bold;
 }
-.menuBtn-recent-orders-item-header{
+.menuBtn-order-list-recent-purchases-header{
     background-color: transparent;
     border: none;
     cursor: pointer;
     outline: none;
 }
-.menuBtn-recent-orders-item-header:hover{
+.menuBtn-order-list-recent-purchases-header{
     scale: 1.1;
     transition-delay: 0.1s;
+}
+.dashboard-component-3-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(128, 128, 128);
+    border-bottom: 1px solid lightgray;
 }

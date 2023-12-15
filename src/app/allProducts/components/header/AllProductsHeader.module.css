@@ -1,0 +1,14 @@
+.all-products-header-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title-direction-all-products-header{
+    display: flex;
+    flex-direction: column;
+}
+.title-all-products-header{
+    font-size: 26px;
+    font-weight: bold;
+}

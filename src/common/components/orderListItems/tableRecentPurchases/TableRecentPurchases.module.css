@@ -1,6 +1,5 @@
 table{
     width: 100%;
-
 }
 thead{
     border-bottom: 1px solid var(--gray);
@@ -14,15 +13,16 @@ tbody > tr >td{
     margin-bottom: 0px;
     padding: 15px;
 }
-.customer-table-recent-orders{
+.customer-table-recent-purchases{
     display: flex;
     flex-direction: row;
     gap: 5px;
 }
-.customer-avatar-table-recent-orders{
+.customer-avatar-table-recent-purchases{
     border-radius: 50%;
+
 }
-.status-icon-table-recent-orders{
+.status-icon-table-recent-purchases{
     display: flex;
     flex-direction: row;
     gap: 5px;

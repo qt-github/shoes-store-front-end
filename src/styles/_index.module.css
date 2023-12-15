@@ -3,3 +3,5 @@
 @import'../components/footer/Footer.module.css';
 @import'../app/dashboard/styles/dashboard.module.css';
 @import "../common/styles/_index.module.css";
+@import "src/app/allProducts/styles/_index.module.css";
+@import "src/app/orderList/styles/_index.module.css";

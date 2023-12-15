@@ -6,3 +6,7 @@
 @import "../../common/components/chart/SaleChart.module.css";
 @import"../../common/components/dashboardItems/bestSellerItem/BestSeller.module.css";
 @import"src/common/components/dashboardItems/tableRecentOrders/TableRecentOrders.module.css";
+@import "../components/button/icon-text/ButtonIconText.module.css";
+@import"src/common/components/allProductsItems/AllProductsItems.module.css";
+@import "src/common/components/progressBar/ProgressBar.module.css";
+@import "src/common/components/orderListItems/tableRecentPurchases/TableRecentPurchases.module.css";

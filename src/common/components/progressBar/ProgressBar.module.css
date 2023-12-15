@@ -1,0 +1,25 @@
+.wrapper-progress-bar{
+    width: 50px;
+}
+
+.container-progress-bar {
+    border-radius: 10px;
+    background-color: var(--gray);
+}
+
+.barCompleted-progress-bar {
+    background-color: var(--yellow);
+    border-radius: 10px;
+    width:50%;
+    height: 5px;
+}
+
+.label-progress-bar {
+    font-size: 0px;
+    color: transparent;
+
+}
+.customLabel-progress-bar{
+    height: 10px;
+    width: 50px;
+}
